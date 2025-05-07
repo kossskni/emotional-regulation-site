@@ -4,69 +4,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Science-backed emotional regulation strategies including grounding, proprioception, and more." />
   <title>Emotional Regulation Strategies</title>
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #3b82f6; color: white; padding: 2rem; text-align: center; }
-    main { max-width: 800px; margin: auto; padding: 2rem; background: white; }
-    h1, h2 { color: #1e3a8a; }
-    .strategy { margin-bottom: 2rem; }
-    footer { text-align: center; padding: 1rem; background: #e5e7eb; }
-    a { color: #2563eb; text-decoration: none; }
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f0f2f5; color: #333; }
+    header { background: #2563eb; color: white; padding: 2rem; text-align: center; }
+    main { max-width: 960px; margin: 2rem auto; padding: 1rem; }
+    h1, h2 { color: #1d4ed8; }
+    .card {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .card img { width: 100%; max-height: 240px; object-fit: cover; }
+    .card-content { padding: 1rem; }
+    footer { text-align: center; padding: 2rem; background: #e0e7ff; font-size: 0.9rem; }
+    a.button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Evidence-Based Emotional Regulation</h1>
-    <p>Explore science-backed strategies to calm your body and mind.</p>
+    <h1>Emotional Regulation Strategies</h1>
+    <p>Evidence-based techniques for calming your body and mind.</p>
+    <a class="button" href="grounding_checklist.pdf" download>Download Grounding Checklist (PDF)</a>
   </header>
-
   <main>
-    <section class="strategy">
-      <h2>1. Grounding Techniques</h2>
-      <p>Grounding is a method to bring awareness to the present moment. Techniques include the 5-4-3-2-1 method, walking barefoot, or holding textured objects.</p>
-      <p><strong>Research:</strong> Grounding can reduce cortisol and improve mood (Chevalier et al., 2012).</p>
-      <p><a href="grounding_checklist.pdf" download>Download Grounding Checklist (PDF)</a></p>
-    </section>
-
-    <section class="strategy">
-      <h2>2. Proprioceptive Input</h2>
-      <p>Proprioception helps calm the nervous system through heavy work like stretching, yoga, or using compression items.</p>
-      <p><strong>Research:</strong> Based on sensory integration theory (Ayres, 1972).</p>
-      <p><a href="#">Try a weighted blanket (affiliate)</a></p>
-    </section>
-
-    <section class="strategy">
-      <h2>3. Breathwork</h2>
-      <p>Box breathing or diaphragmatic breathing can shift your nervous system to a calmer state.</p>
-      <p><strong>Research:</strong> Improves HRV and reduces anxiety (Jerath et al., 2006).</p>
-    </section>
-
-    <section class="strategy">
-      <h2>4. Cold Exposure</h2>
-      <p>Cold water or ice can activate the vagus nerve and lower arousal.</p>
-      <p><strong>Research:</strong> Activates dive reflex (Porges, 2001).</p>
-    </section>
-
-    <section class="strategy">
-      <h2>5. Emotion Labeling</h2>
-      <p>Labeling emotions helps regulate them by engaging your prefrontal cortex.</p>
-      <p><strong>Research:</strong> Reduces amygdala activity (Lieberman et al., 2007).</p>
-    </section>
-
-    <section>
-      <h2>Subscribe for More</h2>
-      <p>Get access to more guides and resources:</p>
-      <form action="https://YOUR_MAILCHIMP_FORM_URL" method="post" target="_blank">
-        <input type="email" name="EMAIL" placeholder="Your email" required>
-        <button type="submit">Subscribe</button>
-      </form>
-    </section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1601012387129-88630f6e1b01?auto=format&fit=crop&w=1350&q=80" alt="Grounding">
+      <div class="card-content">
+        <h2>Grounding Techniques</h2>
+        <p>Use your senses to anchor yourself in the present moment. Try the 5-4-3-2-1 method, or walk barefoot outdoors.</p>
+        <p><strong>Research:</strong> Grounding reduces stress and improves mood (Chevalier et al., 2012).</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1584467735871-7d73c3f17aa0?auto=format&fit=crop&w=1350&q=80" alt="Proprioception">
+      <div class="card-content">
+        <h2>Proprioceptive Input</h2>
+        <p>Heavy work like stretching, yoga, or compression helps your brain feel safe and calm.</p>
+        <p><strong>Research:</strong> Effective for sensory regulation (Ayres, 1972).</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1559028012-d0be0f6b50d5?auto=format&fit=crop&w=1350&q=80" alt="Breathwork">
+      <div class="card-content">
+        <h2>Breathwork</h2>
+        <p>Box breathing or slow diaphragmatic breathing activates the calming parasympathetic system.</p>
+        <p><strong>Research:</strong> Reduces anxiety, improves HRV (Jerath et al., 2006).</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1625650001063-6a8805c96f83?auto=format&fit=crop&w=1350&q=80" alt="Cold Exposure">
+      <div class="card-content">
+        <h2>Cold Exposure</h2>
+        <p>Cold water or ice on the face activates the vagus nerve and can bring instant calm.</p>
+        <p><strong>Research:</strong> Stimulates the dive reflex (Porges, 2001).</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1350&q=80" alt="Labeling Emotions">
+      <div class="card-content">
+        <h2>Cognitive Labeling</h2>
+        <p>Simply naming what you feel can reduce its emotional charge. Try “I’m feeling...” to engage your thinking brain.</p>
+        <p><strong>Research:</strong> Decreases amygdala activity (Lieberman et al., 2007).</p>
+      </div>
+    </div>
   </main>
-
   <footer>
     <p>&copy; 2025 EmotionalReg.com | Built with care and science</p>
+    <p><a href="https://www.buymeacoffee.com/yourusername" target="_blank">Support this project</a></p>
   </footer>
 </body>
 </html>
